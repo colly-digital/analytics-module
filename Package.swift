@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "AnalyticsApi", targets: ["AnalyticsApi"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/feathercms/feather-core", .branch("dev")),
+         .package(url: "https://github.com/feathercms/feather-core", .revision("a54c9323416e5a45f7a2d9b4ee601444ff04f154")),
         .package(url: "https://github.com/malcommac/UAParserSwift", from: "1.2.1"),
         .package(name: "ALanguageParser", url: "https://github.com/matsoftware/accept-language-parser", from: "1.0.0"),
         .package(url: "https://github.com/vapor/sql-kit.git", from: "3.0.0"),
